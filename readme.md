@@ -3,9 +3,9 @@
 Objetivo e escopo: Apresentar a teoria de modelo de regressão linear, e apllicar a um exemplo em python sobre classificação do coronavírus (Covid-19). Oficina apresentada em reunião LAMFO em 28 de março de 2020.
 
 Apresentadores:
-- Lucas Moreira Gomes
-- Alixandro Werneck
 - Alícia Macedo
+- Alixandro Werneck
+- Lucas Moreira Gomes
 
 ## Teoria - Slides e explicação
 Os slides utilizados na apresentação estão disponíveis em:
@@ -104,7 +104,7 @@ cm = confusion_matrix(y_test, y_pred)
 print(cm)
 ```
 
-Por último, plotamos os resulados para conferir visualmente nosso classificador (verde é saudável e vermelhor doente).
+Por último, plotamos os resulados para conferir visualmente nosso classificador (verde é saudável e vermelho é doente).
 
 ```python
 import numpy as np
@@ -123,8 +123,7 @@ plt.ylabel('Idade')
 plt.legend() 
 plt.show()
 ```
-
-![gráfico][COVID.png]
+![gráfico](COVID.png)
 
 ## Referências
 
